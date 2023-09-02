@@ -1,0 +1,62 @@
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+*{
+    margin : 0;
+    padding : 0;
+    /* box-sizing: border-box; */
+    font-family:  'EB Garamond','Courier New';
+}
+body{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(180deg,#000,#f1a,#fff);
+    display: flex;
+    flex-direction: column;
+    gap:3rem;
+    justify-content: center;
+    align-items: center; 
+    /* border: 3px solid white; */
+}
+.container{
+    border: 3px solid rgb(21, 2, 26);  
+}
+td{
+    padding : 10px;
+}
+#deg{
+    font-size: 50px;
+}
+#unit{
+    font-size: 25px;
+    padding-left :0;
+}
+/* table,tr,td{
+    /* border:2px solid black; */
+} */
+nav{
+ /* border:2px solid red; */
+ width:60%;
+ height:3rem;
+ display:flex;
+ justify-content: center;
+}
+form{
+  width:90%;
+  /* border:1px solid white; */
+  display: flex;
+  gap:1rem;
+  justify-content: center;
+}
+.search{
+  width: 70%;
+  font-size: large;
+  border-radius: 0.25rem;
+  background: transparent;
+  /* color:#fff; */
+}
+button{
+  width:30%;
+  font-size: large;
+  border-radius: 0.25rem;
+  outline:none;
+  background: transparent;
+}
